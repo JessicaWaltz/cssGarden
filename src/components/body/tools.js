@@ -27,11 +27,11 @@ class Tools extends Component{
     render(){
         return(
             <div className="garden-tools" onChange={this.onChangeValue}>
-                <input type="radio" id="watering-can" name="tool" value="watering-can"/>
-                <label for="watering-can">Watering Can</label><br/>
-                <input type="radio" id="plant-seeds" name="tool" value="plant-seeds"/>
-                <label for="plant-seeds">Plant Seeds</label><br/>
-                <input type="radio" id="harvest" name="tool" value="harvest"/>
+                <input className="watering-can" type="radio" id="watering-can" name="tool" value="watering-can"/>
+                <label  for="watering-can"><img src={require("../img/can.png")}></img></label><br/>
+                <input className="plant-seeds" type="radio" id="plant-seeds" name="tool" value="plant-seeds"/>
+                <label for="plant-seeds"><img src={require("../img/seeds.png")}></img></label><br/>
+                <input className="harvest" type="radio" id="harvest" name="tool" value="harvest"/>
                 <label for="harvest">Harvest</label><br/>
             </div>
         )

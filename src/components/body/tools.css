@@ -2,4 +2,24 @@
     grid-area: tool;
     text-align: center;
     padding: 3em;
+    display: inline;
 }
+.watering-can{
+    float: none;
+    margin: 0;
+    position: relative;
+    top: -40px;
+    width: 20px;
+}
+.harvest{
+
+}
+.plant-seeds{
+    float: none;
+    margin: 0;
+    position: relative;
+    top: -40px;
+    width: 20px;
+    
+}
+

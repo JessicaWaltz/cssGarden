@@ -1,32 +1,57 @@
-.x1y1{grid-area: x1y1;}
-.x1y2{grid-area: x1y2;}
-.x1y3{grid-area: x1y3;}
-.x1y4{grid-area: x1y4;}
-.x1y5{grid-area: x1y5;}
+.x1y1{grid-area: x1y1;
+    border-radius: 12px;}
+.x1y2{grid-area: x1y2;
+    border-radius: 12px;}
+.x1y3{grid-area: x1y3;
+    border-radius: 12px;}
+.x1y4{grid-area: x1y4;
+    border-radius: 12px;}
+.x1y5{grid-area: x1y5;
+    border-radius: 12px;}
 
-.x2y1{grid-area: x2y1;}
-.x2y2{grid-area: x2y2;}
-.x2y3{grid-area: x2y3;}
-.x2y4{grid-area: x2y4;}
-.x2y5{grid-area: x2y5;}
+.x2y1{grid-area: x2y1;
+    border-radius: 12px;}
+.x2y2{grid-area: x2y2;
+    border-radius: 12px;}
+.x2y3{grid-area: x2y3;
+    border-radius: 12px;}
+.x2y4{grid-area: x2y4;
+    border-radius: 12px;}
+.x2y5{grid-area: x2y5;
+    border-radius: 12px;}
 
-.x3y1{grid-area: x3y1;}
-.x3y2{grid-area: x3y2;}
-.x3y3{grid-area: x3y3;}
-.x3y4{grid-area: x3y4;}
-.x3y5{grid-area: x3y5;}
+.x3y1{grid-area: x3y1;
+    border-radius: 12px;}
+.x3y2{grid-area: x3y2;
+    border-radius: 12px;}
+.x3y3{grid-area: x3y3;
+    border-radius: 12px;}
+.x3y4{grid-area: x3y4;
+    border-radius: 12px;}
+.x3y5{grid-area: x3y5;
+    border-radius: 12px;}
 
-.x4y1{grid-area: x4y1;}
-.x4y2{grid-area: x4y2;}
-.x4y3{grid-area: x4y3;}
-.x4y4{grid-area: x4y4;}
-.x4y5{grid-area: x4y5;}
+.x4y1{grid-area: x4y1;
+    border-radius: 12px;}
+.x4y2{grid-area: x4y2;
+    border-radius: 12px;}
+.x4y3{grid-area: x4y3;
+    border-radius: 12px;}
+.x4y4{grid-area: x4y4;
+    border-radius: 12px;}
+.x4y5{grid-area: x4y5;
+    border-radius: 12px;}
 
-.x5y1{grid-area: x5y1;}
-.x5y2{grid-area: x5y2;}
-.x5y3{grid-area: x5y3;}
-.x5y4{grid-area: x5y4;}
-.x5y5{grid-area: x5y5;}
+.x5y1{grid-area: x5y1;
+    border-radius: 12px;}
+.x5y2{grid-area: x5y2;
+    border-radius: 12px;}
+.x5y3{grid-area: x5y3;
+    border-radius: 12px;}
+.x5y4{grid-area: x5y4;
+    border-radius: 12px;}
+.x5y5{grid-area: x5y5;
+    border-radius: 12px;}
 .start{
     background-image: url('../img/dirt-dry.png');
 }
@@ -44,12 +69,20 @@
         'x1y4 x2y4 x3y4 x4y4 x5y4'
         'x1y5 x2y5 x3y5 x4y5 x5y5';
     grid-gap: 1px;
-    padding: 1em 6.5em 1em 6.5em;
     grid-auto-rows: 1fr 1fr 1fr 1fr 1fr; 
     grid-auto-columns: 1fr 1fr 1fr 1fr 1fr;
     background-image: url('../img/Grass.png');
     background-repeat: repeat;
+    border: 12px solid rgb(137,186,077);
+    border-radius: 12px;
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 700px;
+    max-height: 700px;
+    position: sticky;
+    right:0;
 }
+
 .garden-container div::before {
     content: "";
     padding-bottom: 100%;
