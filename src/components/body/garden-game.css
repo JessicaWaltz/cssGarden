@@ -1,0 +1,13 @@
+.garden-game-container{
+    display: grid;
+    grid-template-areas:
+        'gard gard gard gard'
+        'gard gard gard gard'
+        'gard gard gard gard'
+        'gard gard gard gard'
+        'tool tool tool tool';
+    grid-template-columns: 100px;
+    grid-template-rows: 100px;
+    grid-gap: 10px;
+    background-color: #2196F3;
+}

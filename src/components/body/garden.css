@@ -1,0 +1,47 @@
+.x1y1{grid-area: x1y1;}
+.x1y2{grid-area: x1y2;}
+.x1y3{grid-area: x1y3;}
+.x1y4{grid-area: x1y4;}
+.x1y5{grid-area: x1y5;}
+
+.x2y1{grid-area: x2y1;}
+.x2y2{grid-area: x2y2;}
+.x2y3{grid-area: x2y3;}
+.x2y4{grid-area: x2y4;}
+.x2y5{grid-area: x2y5;}
+
+.x3y1{grid-area: x3y1;}
+.x3y2{grid-area: x3y2;}
+.x3y3{grid-area: x3y3;}
+.x3y4{grid-area: x3y4;}
+.x3y5{grid-area: x3y5;}
+
+.x4y1{grid-area: x4y1;}
+.x4y2{grid-area: x4y2;}
+.x4y3{grid-area: x4y3;}
+.x4y4{grid-area: x4y4;}
+.x4y5{grid-area: x4y5;}
+
+.x5y1{grid-area: x5y1;}
+.x5y2{grid-area: x5y2;}
+.x5y3{grid-area: x5y3;}
+.x5y4{grid-area: x5y4;}
+.x5y5{grid-area: x5y5;}
+
+.garden-container{
+    display: grid;
+    grid-template-areas:
+        'x1y1 x2y1 x3y1 x4y1 x5y1'
+        'x1y2 x2y2 x3y2 x4y2 x5y2'
+        'x1y3 x2y3 x3y3 x4y3 x5y3'
+        'x1y4 x2y4 x3y4 x4y4 x5y4'
+        'x1y5 x2y5 x3y5 x4y5 x5y5';
+    grid-template-columns: 100px;
+    grid-template-rows: 100px;
+    grid-gap: 10px;
+    background-color: #2196F3;
+}
+
+.garden-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+}
