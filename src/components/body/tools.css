@@ -1,3 +1,5 @@
 .garden-tools{
     grid-area: tool;
+    text-align: center;
+    padding: 3em;
 }
